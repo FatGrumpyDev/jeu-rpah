@@ -1,14 +1,14 @@
 [gd_scene load_steps=4 format=3 uid="uid://cahv2873mwef1"]
 
-[ext_resource type="PackedScene" uid="uid://bd6fmc86p46yy" path="res://scenes/character_debug.tscn" id="2_ma1j3"]
-[ext_resource type="PackedScene" uid="uid://dcf8wit1kfwb8" path="res://scenes/sol.tscn" id="2_uq12r"]
-[ext_resource type="PackedScene" uid="uid://cld5uys8ckts2" path="res://scenes/monstre_debug.tscn" id="3_gxxix"]
+[ext_resource type="PackedScene" uid="uid://bd6fmc86p46yy" path="res://scenes/character_debug.tscn" id="1_exkd7"]
+[ext_resource type="PackedScene" uid="uid://dcf8wit1kfwb8" path="res://scenes/sol.tscn" id="2_ruc7b"]
+[ext_resource type="PackedScene" uid="uid://cld5uys8ckts2" path="res://scenes/monstre_debug.tscn" id="3_m2vva"]
 
 [node name="Node2D" type="Node2D"]
 metadata/_edit_horizontal_guides_ = [-1908.0, -2720.0, 104.0]
 metadata/_edit_vertical_guides_ = [521.0, 3247.0, -1580.0]
 
-[node name="CharacterBody2D2" parent="." instance=ExtResource("2_ma1j3")]
+[node name="CharacterBody2D2" parent="." instance=ExtResource("1_exkd7")]
 position = Vector2(960, -109)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D2"]
@@ -19,29 +19,29 @@ limit_bottom = 100
 
 [node name="arene" type="Node" parent="."]
 
-[node name="StaticBody2D4" parent="arene" instance=ExtResource("2_uq12r")]
+[node name="StaticBody2D4" parent="arene" instance=ExtResource("2_ruc7b")]
 position = Vector2(3192, -1151)
 rotation = -1.5708
 
-[node name="StaticBody2D5" parent="arene" instance=ExtResource("2_uq12r")]
+[node name="StaticBody2D5" parent="arene" instance=ExtResource("2_ruc7b")]
 position = Vector2(556, -1203)
 rotation = 1.5708
 
-[node name="StaticBody2D2" parent="arene" instance=ExtResource("2_uq12r")]
+[node name="StaticBody2D2" parent="arene" instance=ExtResource("2_ruc7b")]
 position = Vector2(570, -345)
 rotation = -1.5708
 
-[node name="StaticBody2D6" parent="arene" instance=ExtResource("2_uq12r")]
+[node name="StaticBody2D6" parent="arene" instance=ExtResource("2_ruc7b")]
 position = Vector2(2899, -3551)
 rotation = 3.14159
 
-[node name="StaticBody2D3" parent="arene" instance=ExtResource("2_uq12r")]
+[node name="StaticBody2D3" parent="arene" instance=ExtResource("2_ruc7b")]
 position = Vector2(3190, -350)
 rotation = -1.5708
 
-[node name="StaticBody2D" parent="arene" instance=ExtResource("2_uq12r")]
+[node name="StaticBody2D" parent="arene" instance=ExtResource("2_ruc7b")]
 position = Vector2(1820, 31)
 scale = Vector2(6.34031, 0.764022)
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("3_gxxix")]
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_m2vva")]
 position = Vector2(2611, -361)

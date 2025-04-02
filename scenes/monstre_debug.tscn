@@ -65,14 +65,14 @@ offset_right = 596.0
 offset_bottom = 156.0
 text = "degbug"
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="phases_boss" type="Node2D" parent="."]
 
-[node name="Node2" type="Node" parent="Node2D"]
+[node name="Node2" type="Node" parent="phases_boss"]
 
-[node name="Node3" type="Node" parent="Node2D"]
+[node name="Node3" type="Node" parent="phases_boss"]
 
-[node name="Node4" type="Node" parent="Node2D"]
+[node name="Node4" type="Node" parent="phases_boss"]
 
-[node name="Node5" type="Node" parent="Node2D"]
+[node name="Node5" type="Node" parent="phases_boss"]
 
-[node name="Node" type="Node" parent="Node2D"]
+[node name="Node" type="Node" parent="phases_boss"]
